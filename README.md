@@ -1,46 +1,17 @@
-# Getting Started with Create React App
+# Comida em casa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sua transformação transforma vidas, dessa forma resolvemos trazer uma plataforma que pode ajudar a conetar doadores e instituições.
 
-## Available Scripts
+<span>
+  <img src="./src/assets/images/screenshots/1.png" width="200" title="Home">
+  <img src="./src/assets/images/screenshots/2.png" width="200" title="Home">
+  <img src="./src/assets/images/screenshots/3.png" width="200" title="Home">
+  <img src="./src/assets/images/screenshots/4.png" width="200" title="Home">
+</span>
 
-In the project directory, you can run:
+## Por que a internet é importante para as ONGs?
 
-### `npm start`
+Quando se fala em ONGs, é muito comum se generalizar o conceito e as necessidades do setor inteiro, pensando em doações e voluntariado, somente. Na verdade, elas precisam de um plano de atuação estruturado e a divulgação entra como chave na estratégia, pois elas devem ser conhecidas pelo segmento que pretendem auxiliar, por possíveis colaboradores e pela sociedade civil. Esse movimento, que engloba conhecimento, ajuda e procura, resulta na captação de recursos.
+As instituições do Terceiro Setor têm uma cultura de relacionamento direto muito forte, seja pelo uso de captadores na rua ou por ligações — e a internet ainda aparece como uma incógnita. É nesse ambiente que, quanto mais preparadas e presentes elas estiverem nas redes, mais eficaz serão os resultados revertidos para seus projetos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="./src/assets/images/screenshots/5.png" width="500" title="Home">
