@@ -3,7 +3,16 @@ import { useNavigate } from 'react-router-dom';
 import Home from '../../assets/icons/home.png'
 import { Menu, List } from './components';
 
-const Container = ({ children, className }) => {
+interface Props {
+  children: any,
+  className: string,
+}
+
+interface INavbar {
+  to?: string
+}
+
+const Container: React.FC<Props> = ({ children, className }) => {
   return (
     <div className={className}>
       {children}
@@ -11,30 +20,23 @@ const Container = ({ children, className }) => {
   )
 }
 
-const Navbar = ({ to }) => {
-  const [visibleMobile, setVisibleMobile] = useState(false)
+const Navbar: React.FC<INavbar> = ({ to }) => {
+  const [visibleMobile, setVisibleMobile] = useState(true)
 
   const navigate = useNavigate()
 
   return (
     <>
       <Container className="w-full fixed px-6 py-3 md:py-5 bg-slate-50 shadow-lg">
-        <div className='m-auto w-11/12'>
-          <div className='flex justify-between'>
+        <div className='grid grid-cols-3'>
             <span className='flex cursor-pointer' onClick={() => to && navigate(to)}>
               <div>
-                <img className='w-10/12' src={Home} alt="" srcset="" />
+                <img className='w-10/12' src={Home} alt="" />
               </div>
               <span className='font-dm text-lg ml-3 indigo-700 text-indigo-500'>Comida em casa</span>
             </span>
-            <div className='hidden md:block'>
-              <List />
-            </div>
             <Menu {...{ visibleMobile, setVisibleMobile }} />
-          </div>
-          <div className='block md:hidden'>
             {visibleMobile && <List {...{ visibleMobile }} />}
-          </div>
         </div>
       </Container>
     </>

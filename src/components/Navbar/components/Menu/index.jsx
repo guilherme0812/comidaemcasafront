@@ -9,7 +9,7 @@ const Menu = ({visibleMobile, setVisibleMobile}) => {
 
   return (
     <>
-      <div className='md:hidden' onClick={handleClick}><IoMenu size={30} className="text-indigo-500" /></div>
+      <div className='col-span-2 md:hidden place-self-end' onClick={handleClick}><IoMenu size={30} className="text-indigo-500" /></div>
     </>
   )
 }

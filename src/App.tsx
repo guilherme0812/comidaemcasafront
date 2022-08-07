@@ -1,7 +1,8 @@
+import * as React from 'react';
 import './index.css';
 import RoutesComidaEmCasa from './navigation/navigation';
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
       <RoutesComidaEmCasa/>
