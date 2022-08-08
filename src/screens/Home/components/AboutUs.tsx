@@ -8,7 +8,7 @@ const AboutUs = () => {
     <div>
       <div className='md:grid md:grid-cols-2'>
         <div className="flex justify-center md:justify-end items-center md:h-screen px-6">
-          <img className='w-10/12' src={Woman} alt="" srcset="" />
+          <img className='w-10/12' src={Woman} alt="" />
         </div>
         <div className="flex justify-start items-center h-screen px-6">
           <div className='grid gap-8 mx-auto md:w-3/4'>
